@@ -16,6 +16,16 @@ li {
     width: 50px;
 }
 
+/* landing page */
+
+#landing-page {
+    min-height: 100vh;
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+}
+
 /* Navigation */
 
 nav {
