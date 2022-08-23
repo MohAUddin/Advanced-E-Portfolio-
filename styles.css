@@ -10,6 +10,15 @@ li {
     list-style: none;
 }
 
+p{
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+section {
+    background-color: rgb(245, 245, 245);
+}
+
 #personal-logo{
     filter: invert(1);
     height: 50px;
@@ -22,9 +31,29 @@ li {
     min-height: 100vh;
 }
 
-section {
-    background-color: rgb(245, 245, 245);
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate((-50%, -50%));
+    width: 100%;
+    max-width: 1000px;
+    
 }
+
+.title {
+    font-size: 120px;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1;
+}
+
+.orange {
+    color: #f06449 !important;
+}
+
+
 
 /* Navigation */
 
