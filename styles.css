@@ -2,9 +2,15 @@
 *{
    padding: 0;
    margin: 0;
-   box-sizing: border-box;
+   box-sizing: border-box ;
    font-family: 'Roboto', sans-serif;
 }
+
+
+a{
+    text-decoration: none;
+}
+
 
 li {
     list-style: none;
@@ -31,14 +37,19 @@ section {
     min-height: 100vh;
 }
 
+.orange {
+    color: #f06449 !important;
+}
+
 
 .header {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate((-50%, -50%));
+    transform: translate(-50%, -50%);
     width: 100%;
     max-width: 1000px;
+    padding: 0 30px;
 }
 
 .title {
@@ -48,9 +59,13 @@ section {
     line-height: 1;
 }
 
-.orange {
-    color: #f06449 !important;
+
+.header__para{
+    font-size: 24px;
+    line-height: 2;
+    max-width: 450px;
 }
+
 
 
 
@@ -76,7 +91,6 @@ nav {
 }
 
 .nav__link--anchor {
-    text-decoration: none;
     font-size: 16px;
     color: #242424;
     font-weight: 700;
