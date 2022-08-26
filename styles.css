@@ -296,5 +296,17 @@ footer{
 
 .footer__logo--img{
     width: 70px;
-    height: 70px;
+}
+
+.footer__social--list{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 500px;
+    margin: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+    color: white;
 }
