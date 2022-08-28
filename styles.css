@@ -263,6 +263,11 @@ nav {
     transform: scale(1);
 }
 
+.modal__langauge:hover{
+    filter: brightness(80%);
+    transform: scale(0.9);
+}
+
 .modal__langauge--img{
     width: 100%;
 }
