@@ -244,6 +244,14 @@ nav {
     width: 50%;
 }
 
+.modal__about{
+    background-color: rgb(245, 245, 245);
+}
+
+.modal__content {
+    background-color: #242424;
+}
+
 /* Projects */
 
 .section__title{
