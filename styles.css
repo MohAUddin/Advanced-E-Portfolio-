@@ -39,6 +39,12 @@ input, textarea{
     border-right: none;
 }
 
+label{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
 .container {
     padding: 50px 0;
     width: 100%;
