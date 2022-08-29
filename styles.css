@@ -339,14 +339,20 @@ nav {
 
 .form__submit {
     background-color: #f06449;
-    border: #f06449;
+    border: 2px solid #f06449;
+    border-radius: 5px;
     color: white;
     font-weight: 700;
     width: 100%;
     max-width: 240px;
     padding: 12px 24px;
     font-size: 20px;
-    
+    transition: all 100ms ease;
+}
+
+.form__submit:hover {
+    background-color: transparent;
+    border-color: white;
 }
 
 /* Projects */
