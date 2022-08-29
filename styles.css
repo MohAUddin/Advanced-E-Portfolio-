@@ -355,6 +355,12 @@ nav {
     border-color: white;
 }
 
+.form__submit:active {
+    border-color: #f06449;
+    color: #f06449;
+}
+
+
 /* Projects */
 
 .section__title{
