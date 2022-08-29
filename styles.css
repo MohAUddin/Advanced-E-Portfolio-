@@ -39,10 +39,16 @@ input, textarea{
     border-right: none;
 }
 
+textarea{
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+
 label{
     font-size: 14px;
     font-weight: bold;
-    
+
 }
 
 .container {
@@ -321,6 +327,10 @@ nav {
 .modal__content {
     background-color: #242424;
     color: white;
+}
+
+.form__item {
+    margin-bottom: 20px;
 }
 
 /* Projects */
