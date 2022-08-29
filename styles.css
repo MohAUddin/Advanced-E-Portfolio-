@@ -337,6 +337,18 @@ nav {
     margin-bottom: 20px;
 }
 
+.form__submit {
+    background-color: #f06449;
+    border: #f06449;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    max-width: 240px;
+    padding: 12px 24px;
+    font-size: 20px;
+    
+}
+
 /* Projects */
 
 .section__title{
