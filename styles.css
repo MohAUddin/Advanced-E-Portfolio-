@@ -316,6 +316,7 @@ nav {
 
 .modal__sub-title{
     margin: 12px 0 24px 0;
+    font-size: 14px;
 }
 
 .modal__para{
@@ -327,6 +328,9 @@ nav {
 .modal__content {
     background-color: #242424;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .form__item {
