@@ -80,6 +80,7 @@ input:focus, textarea:focus {
 }
 
 .click{
+    cursor: pointer;
     transition: all 300ms ease;
 }
 
