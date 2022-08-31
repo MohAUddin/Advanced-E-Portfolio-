@@ -382,6 +382,7 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 80px;
+    z-index: -1;
 }
 
 .fa-spinner{
