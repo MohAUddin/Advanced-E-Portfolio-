@@ -371,8 +371,7 @@ nav {
     color: #f06449;
 }
 
-.modal__overlay--loading {
-    background-color: #1c1c1c;
+.modal__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -381,8 +380,20 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal__overlay--loading {
+    background-color: #1c1c1c;
     font-size: 80px;
     z-index: -1;
+}
+
+.modal__overlay--success {
+    background-color: #2e856e;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 28px;
 }
 
 .fa-spinner{
