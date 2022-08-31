@@ -372,7 +372,7 @@ nav {
 }
 
 .modal__overlay--loading {
-    background-color: blue;
+    background-color: #1c1c1c;
     position: absolute;
     top: 0;
     left: 0;
@@ -382,7 +382,20 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 80px;
+}
 
+.fa-spinner{
+    animation: spinner 750ms infinite ;
+}
+
+@keyframes spinner{
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
