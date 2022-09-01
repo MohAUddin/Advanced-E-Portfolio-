@@ -3,12 +3,18 @@
 // LnBFGGQS3aidVoJuh
 let isModalOpen = false;
 let contrastToggle = false;
+let scaleFactor = 1 / 20;
 
 function moveBackground(event) {
     const shapes = document.querySelectorAll(".shape")
-    const  x = event.clientX;
-    const  y = event.clientY;
-    console.log(x, y)
+    const  x = event.clientX * scaleFactor ;
+    const  y = event.clientY * scaleFactor;
+   
+    for (i=0; i < shapes.length; ++i) {
+        const isOdd = i % 2 !== 0;
+        const oddInteger = isOdd ? -1 : 1
+        shapes[i].style.transform = `translate(${x * oddInteger}px, ${y * oddInteger}px)` 
+    }
 }
 
 function toggleContrast() {
