@@ -599,3 +599,58 @@ footer{
 .footer__copyright {
     color: white;
 }
+
+
+/* Shapes */
+
+.shape {
+    position: fixed;
+    height: 30px;
+}
+
+.shape--0 {
+    top: 15vh;
+    width: 5vw;
+
+}
+
+.shape--1 {
+    top: 15vh;
+    width: 50vh;
+}
+
+.shape--2 {
+    top: 15vh;
+    width: 80vh;
+}
+
+.shape--3 {
+    top: 50vh;
+    left: 5vw;
+}
+
+.shape--4 {
+    top: 50vh;
+    left: 50vw;
+}
+
+.shape--5 {
+    top: 50vh;
+    left: 80vw;
+}
+
+.shape--6 {
+    top: 80vh;
+    left: 5vw;
+}
+
+.shape--7 {
+    top: 80vh;
+    left: 50vw;
+}
+
+.shape--8 {
+    top: 80vh;
+    left: 80vw;
+}
+
