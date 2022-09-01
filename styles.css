@@ -138,7 +138,18 @@ header,
     transition: all 400ms;
 }
 
+.dark--mode .title,
+.dark--mode .section__title,
+.dark--mode .section__sub-title,
+.dark--mode .nav__link--anchor,
+.dark--mode .fa-adjust,
+.dark--mode .header__para {
+    color: white;
+}
 
+.dark--mode section{
+    background-color: #1c1c1c;
+}
 
 
 /* landing page */
