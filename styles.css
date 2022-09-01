@@ -151,6 +151,23 @@ header,
     background-color: #1c1c1c;
 }
 
+.dark--mode #personal-logo {
+    filter: none;
+}
+
+.dark--mode .scroll__icon {
+    border: 2px solid white;
+}
+
+.dark--mode .scroll__icon::after {
+    background-color: white;
+}
+
+.dark--mode .mail__btn {
+    background-color: white;
+    color: #242424;
+}
+
 
 /* landing page */
 
