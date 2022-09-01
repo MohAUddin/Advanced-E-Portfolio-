@@ -1,7 +1,18 @@
 // template_b064kk4
 // service_7k9v0y7
 // LnBFGGQS3aidVoJuh
+let isModalOpen = false;
+let contrastToggle = false;
 
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle
+    if (contrastToggle){
+        document.body.classList += " dark--theme"
+    }else{
+        document.body.classList.remove ("dark--theme")
+    }
+}
 
 function contact() {
     event.preventDefault();
@@ -27,7 +38,7 @@ function contact() {
 }
 
 
-let isModalOpen = false;
+
 function toggleModal() {
     if (isModalOpen) {
         isModalOpen = false
@@ -37,4 +48,9 @@ function toggleModal() {
 
     isModalOpen = true
     document.body.classList += " modal__open"
+}
+
+
+function toggleContrast() {
+    document.body.classList.toggle("dark--mode")
 }
