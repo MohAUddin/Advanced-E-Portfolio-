@@ -41,18 +41,18 @@
               >Projects</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Contact</a
             >
           </li>
-          <li class="nav__link click">
+          <li class="nav__link click" onclick="toggleContrast()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect__black"
-              ><i class="fa-solid fa-circle-half-stroke"></i
+              ><i class="fas fa-adjust"></i
             ></a>
           </li>
         </ul>
@@ -67,7 +67,7 @@
             passion for building web applicatoins with great user
             experiences.
             <br />
-            Here's a bit more <b class="orange">about me</b> .
+            Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b> .
           </p>
           <div class="socials__list">
             <a
@@ -130,7 +130,7 @@
               </div>
           </div>
           <div class="modal__half modal__content">
-              <i class="fas fa-times modal__exit click"></i>  
+              <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>  
               <h3 class="modal__title modal__title--contact"> Let's have a chat!</h3>
               <h4 class="modal__sub-title modal__sub-title--contact"> Look forward to hearing from you</h4>
               <form action="" id="contact__form" onsubmit="contact(event)">

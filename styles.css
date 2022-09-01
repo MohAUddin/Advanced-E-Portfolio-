@@ -125,7 +125,7 @@ header,
 .scroll {
     opacity: 1;
     visibility: visible;
-    transition: all 600ms;
+    transition: all 600ms 400ms;
 }
 
 .modal__open nav,
