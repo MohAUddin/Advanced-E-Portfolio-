@@ -160,9 +160,11 @@ header,
     border: 2px solid white;
 }
 
-.dark--mode .scroll__icon::after {
+.dark--mode .scroll__icon::after,
+.dark--mode .link__hover-effect--black:after {
     background-color: white;
 }
+
 
 .dark--mode .mail__btn {
     background-color: white;
