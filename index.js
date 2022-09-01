@@ -4,6 +4,12 @@
 let isModalOpen = false;
 let contrastToggle = false;
 
+function moveBackground(event) {
+    const shapes = document.querySelectorAll(".shape")
+    const  x = event.clientX;
+    const  y = event.clientY;
+    console.log(x, y)
+}
 
 function toggleContrast() {
     contrastToggle = !contrastToggle
